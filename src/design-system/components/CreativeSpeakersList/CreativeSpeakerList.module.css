@@ -2,5 +2,5 @@
   display: flex;
   flex-flow: row wrap;
   gap: 2rem;
-  background-color: green;
+  margin: 0 auto;
 }

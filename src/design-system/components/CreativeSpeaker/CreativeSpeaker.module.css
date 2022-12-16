@@ -1,4 +1,10 @@
 .container {
   width: 12.5rem;
   text-align: center;
+  color: var(--GRAY);
+}
+
+h2,
+span {
+  text-transform: capitalize;
 }

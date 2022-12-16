@@ -5,7 +5,7 @@ const CreativeSpeaker = ({ imgUrl, imgAlt, name, job }) => {
     <div className={classes.container}>
       <img src={imgUrl} alt={imgAlt} width="100%" />
       <h2>{name}</h2>
-      <p>{job}</p>
+      <span>{job}</span>
     </div>
   );
 };

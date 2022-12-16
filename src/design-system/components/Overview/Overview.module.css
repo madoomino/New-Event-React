@@ -1,18 +1,11 @@
 .container {
   width: 12rem;
   text-align: center;
+  color: var(--GRAY);
 }
 
 .icon {
   width: 3rem;
   height: 3rem;
-  color: #f2545f;
-}
-
-.title {
-  color: #d4d4d4;
-}
-
-.description {
-  color: #707070;
+  color: var(--PRIMARY-COLOR);
 }
