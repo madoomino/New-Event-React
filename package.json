@@ -1,10 +1,10 @@
 {
-  "name": "tahawy_project",
+  "name": "new_event",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "ncu -u && yarn install && vite",
     "build": "vite build",
     "preview": "vite preview"
   },
@@ -26,6 +26,6 @@
     "@vitejs/plugin-react": "^3.0.0",
     "eslint": "^8.29.0",
     "eslint-plugin-react": "^7.31.11",
-    "vite": "^4.0.0"
+    "vite": "^4.0.1"
   }
 }
