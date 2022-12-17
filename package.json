@@ -4,7 +4,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "ncu -u && yarn install && vite",
+    "update": "ncu -u && yarn install",
+    "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
   },
@@ -24,7 +25,7 @@
     "@types/react": "^18.0.26",
     "@types/react-dom": "^18.0.9",
     "@vitejs/plugin-react": "^3.0.0",
-    "eslint": "^8.29.0",
+    "eslint": "^8.30.0",
     "eslint-plugin-react": "^7.31.11",
     "vite": "^4.0.1"
   }

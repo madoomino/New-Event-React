@@ -8,7 +8,7 @@ export default [
     id: 0,
     imgUrl: img1,
     imgAlt: "first img",
-    name: "Kayla",
+    name: "Jeff",
     job: "Graphic Designer",
   },
   {
@@ -22,7 +22,7 @@ export default [
     id: 2,
     imgUrl: img3,
     imgAlt: "Third Alt",
-    name: "Noha",
+    name: "Mark",
     job: "Art Director",
   },
   {
@@ -33,7 +33,7 @@ export default [
     job: "CEO",
   },
   {
-    id: 2,
+    id: 4,
     imgUrl: img5,
     imgAlt: "Fifth Alt",
     name: "Nahla",

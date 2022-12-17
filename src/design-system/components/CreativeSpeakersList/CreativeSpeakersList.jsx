@@ -1,5 +1,5 @@
 import classes from "./CreativeSpeakerList.module.css";
-import CreativeSpeaker from "../CreativeSpeaker/CreativeSpeaker";
+import CreativeSpeaker from "../CreativeSpeaker";
 import creativeSpeakersData from "./creativeSpeakersData";
 
 const CreativeSpeakerList = () => {

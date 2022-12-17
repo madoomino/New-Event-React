@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  color: var(--GRAY);
+}
+
+.container img {
+  height: auto;
+  border-radius: 50%;
+}
+
+.text-wrapper {
+  gap: 1rem;
+}
+
+.time-room {
+  display: flex;
+}
+
+.time {
+  width: 12ch;
+  font-size: small;
+  font-weight: bold;
+}
+
+.room {
+  width: 12ch;
+  font-size: small;
+  font-weight: bold;
+}
+
+.text-wrapper h2 {
+  margin-top: 1rem;
+  font-size: x-large;
+}
+
+.container .text-wrapper .name {
+  display: inline-block;
+  margin-top: 0.3rem;
+  font-size: smaller;
+  font-weight: bold;
+}
+
+.container .text-wrapper .description {
+  margin-top: 2rem;
+}

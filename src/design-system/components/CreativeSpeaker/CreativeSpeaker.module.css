@@ -4,7 +4,11 @@
   color: var(--GRAY);
 }
 
-h2,
-span {
+.container img {
+  height: 12.5rem;
+}
+
+.container h2,
+.container span {
   text-transform: capitalize;
 }
