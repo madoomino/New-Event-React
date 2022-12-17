@@ -1,0 +1,29 @@
+.nav {
+  background-color: var(--SECONDARY-COLOR);
+  padding: 1.5rem 6rem;
+  color: var(--WHITE);
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav .event {
+  color: var(--PRIMARY-COLOR);
+}
+
+.nav .nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  font-size: 1.1rem;
+}
+
+.nav a:any-link {
+  color: var(--WHITE);
+  text-decoration: none;
+}
+
+.active {
+  color: var(--ACTIVE) !important;
+}

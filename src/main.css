@@ -1,7 +1,9 @@
 :root {
   --PRIMARY-COLOR: #f2545f;
-  --SECONDARY-COLOR: #333;
+  --SECONDARY-COLOR: #090707;
   --GRAY: #707070;
+  --WHITE: #fff;
+  --ACTIVE: #66ccff;
 }
 
 #root {

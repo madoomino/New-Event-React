@@ -1,12 +1,13 @@
-import CreativeSpeakersList from "./design-system/components/CreativeSpeakersList";
-import OurProgramsList from "./design-system/components/OurProgramsList";
-import OverviewList from "./design-system/components/OverviewList";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./pages/home/Home";
 const App = () => {
   return (
     <div className="App">
-      <CreativeSpeakersList />
-      <OverviewList />
-      <OurProgramsList />
+      <BrowserRouter>
+        <Routes>
+          <Route element={<Home />} path="/" />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 };
