@@ -1,0 +1,70 @@
+.header {
+  height: 100vh;
+  background-image: url("../../../../assets/header/people-walking-japan-street-nighttime_23-2148942945.jpg");
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  padding: 20% 0;
+  text-align: center;
+  position: relative;
+}
+
+.header .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header h3 {
+  color: var(--WHITE);
+  font-size: 1.5rem;
+  margin-bottom: 4rem;
+}
+
+.header h1 {
+  color: var(--WHITE);
+  font-size: 3rem;
+}
+
+.btns-container {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.4rem;
+}
+
+.btns-container .learn-more {
+  border: 1px solid var(--WHITE);
+  padding: 0.75rem 2rem;
+  background-color: transparent;
+  color: var(--WHITE);
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.btns-container .learn-more:hover {
+  background-color: var(--WHITE);
+  color: var(--SECONDARY-COLOR);
+}
+
+.btns-container .register-now {
+  border: 1px solid var(--PRIMARY-COLOR);
+  padding: 0.75rem 2rem;
+  background-color: var(--PRIMARY-COLOR);
+  color: var(--WHITE);
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.btns-container .register-now:hover {
+  background-color: transparent;
+  border: 1px solid var(--WHITE);
+  color: var(--WHITE);
+}
