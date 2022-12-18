@@ -1,6 +1,10 @@
 .container {
   width: 12.5rem;
   text-align: center;
+  color: var(--BLACK);
+}
+
+.container span {
   color: var(--GRAY);
 }
 

@@ -1,0 +1,17 @@
+.container {
+  padding: 2rem 6rem;
+  text-align: center;
+  background-color: whitesmoke;
+}
+
+.container h3 {
+  color: var(--BLACK);
+  margin-bottom: 1rem;
+}
+.container span {
+  color: var(--PRIMARY-COLOR);
+}
+
+.container p {
+  margin-bottom: 2rem;
+}
