@@ -1,6 +1,7 @@
 :root {
   --PRIMARY-COLOR: #f2545f;
   --SECONDARY-COLOR: #090707;
+  --BLACK: #222;
   --GRAY: #707070;
   --WHITE: #fff;
   --ACTIVE: #66ccff;
@@ -17,4 +18,26 @@
   padding: 0;
   box-sizing: border-box;
   font-family: sans-serif;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--GRAY);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(165, 165, 165);
+  width: 1rem;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--PRIMARY-COLOR);
+  width: 1rem;
 }

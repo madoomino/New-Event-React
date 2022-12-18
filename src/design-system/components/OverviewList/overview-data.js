@@ -1,36 +1,28 @@
 import {
+  faUsers,
   faClock,
-  faUser,
-  faUserCircle,
-  faUserGroup,
+  faMicrophone,
 } from "@fortawesome/free-solid-svg-icons";
-export const data = [
+export default [
   {
     id: 1,
-    icon: faUser,
-    title: "Adipisicing elit. Ratione",
+    icon: faUsers,
+    title: "650 Participants",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, sequi itaque minus tempore soluta ipsum qui? Saepe fugiat optio quo.",
+      "Lorem ipsum dolor sit minus tempore soluta ipsum qui? Saepe fugiat optio quo.",
   },
   {
     id: 2,
-    icon: faUserGroup,
-    title: "Exercitationem tempore",
+    icon: faClock,
+    title: "24 Programs",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, sequi itaque minus tempore soluta ipsum qui? Saepe fugiat optio quo.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, sequi quo.",
   },
   {
     id: 3,
-    icon: faUserCircle,
-    title: "Amet consectetur adipisicing elit",
+    icon: faMicrophone,
+    title: "11 Speakers",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, sequi itaque minus tempore soluta ipsum qui? Saepe fugiat optio quo.",
-  },
-  {
-    id: 4,
-    icon: faClock,
-    title: "Lorem ipsum dolor sit",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, sequi itaque minus tempore soluta ipsum qui? Saepe fugiat optio quo.",
+      "Lorem ipsum doli itaque minus tempore soluta ipsum qui? Saepe fugiat optio quo.",
   },
 ];
