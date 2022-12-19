@@ -1,0 +1,37 @@
+.container {
+  padding: 3rem 0 5rem 4rem;
+  width: 70%;
+}
+
+.container h3 {
+  font-size: 2rem;
+  color: var(--BLACK);
+  margin-bottom: 1rem;
+}
+.container span {
+  color: var(--PRIMARY-COLOR);
+}
+
+.container p {
+  margin-bottom: 2.5rem;
+}
+
+.container .btns-container {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container .btns-container button {
+  border: none;
+  background-color: transparent;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.container hr {
+  margin-top: 1rem;
+  height: 1px;
+  background-color: black;
+}

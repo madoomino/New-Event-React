@@ -4,7 +4,6 @@ import NavLink from "./NavLink";
 import { useLocation } from "react-router-dom";
 const NavbarItems = () => {
   const router = useLocation();
-  console.log(router.pathname);
   return (
     <ul className={classes["nav-links"]}>
       {links.map((link) => (

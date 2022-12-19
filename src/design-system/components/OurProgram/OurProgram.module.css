@@ -10,6 +10,10 @@
   border-radius: 50%;
 }
 
+.container span {
+  color: var(--GRAY);
+}
+
 .text-wrapper {
   gap: 1rem;
 }

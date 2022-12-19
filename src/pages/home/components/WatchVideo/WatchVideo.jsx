@@ -20,7 +20,7 @@ const WatchVideo = () => {
         title="[ React JS Template 1] 23- Watch Video"
         frameBorder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
+        allowFullScreen
       ></iframe>
     </section>
   );
