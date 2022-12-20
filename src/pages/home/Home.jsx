@@ -1,10 +1,11 @@
-import AboutUs from "./components/AboutUs/AboutUs";
+import AboutUs from "./components/AboutUs";
 import Header from "./components/Header";
 import Navbar from "./components/Navbar";
-import OurPrograms from "./components/OurPorgrams/OurPrograms";
+import OurPrograms from "./components/OurPrograms";
 import Overview from "./components/Overview";
-import Slider from "./components/Slider/Slider";
-import WatchVideo from "./components/WatchVideo/WatchVideo";
+import RegisterHere from "./components/RegisterHere/RegisterHere";
+import Slider from "./components/Slider";
+import WatchVideo from "./components/WatchVideo";
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
       <WatchVideo />
       <Slider />
       <OurPrograms />
+      <RegisterHere />
     </>
   );
 };
