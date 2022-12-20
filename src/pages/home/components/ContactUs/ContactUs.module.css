@@ -1,0 +1,88 @@
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 6rem 10rem;
+  background: url("../../../../assets/contact/contact-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center left;
+}
+
+.container .left-side-container h2 {
+  font-weight: lighter;
+  font-size: 2.5rem;
+}
+
+.container h2 span {
+  color: var(--PRIMARY-COLOR);
+}
+
+.container .left-side-container {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.container .left-side-container p {
+  color: var(--GRAY);
+}
+
+.container .left-side-container button {
+  padding: 0.5rem 1rem;
+  display: flex;
+  font-size: larger;
+  justify-content: center;
+  align-items: center;
+  width: 45%;
+  border: none;
+  background-color: var(--PRIMARY-COLOR);
+  color: var(--WHITE);
+  border-radius: 9999px;
+}
+
+.container .right-side-container {
+  margin-top: -3.5rem;
+  background-color: var(--WHITE);
+  padding: 4rem 8rem 4rem 2rem;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.container .right-side-container h2 {
+  font-weight: lighter;
+}
+
+.container .right-side-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.container .right-side-container form input {
+  font-weight: bold;
+  border: none;
+}
+
+.container .right-side-container form textarea {
+  border: none;
+  width: 20rem;
+  height: 5.3rem;
+  margin-bottom: 4rem;
+}
+
+.container .right-side-container form button {
+  border: none;
+  background-color: var(--BLACK);
+  color: var(--WHITE);
+  border-radius: 9999px;
+  height: 2rem;
+  width: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: larger;
+  cursor: pointer;
+}

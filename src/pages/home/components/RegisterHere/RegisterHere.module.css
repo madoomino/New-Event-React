@@ -2,7 +2,6 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  margin-bottom: 5rem;
   padding: 8rem 8rem 16rem 8rem;
   color: var(--WHITE);
   background-image: url("../../../../assets/register/register-bg.jpg");

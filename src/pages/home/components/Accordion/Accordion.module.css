@@ -1,0 +1,23 @@
+.container {
+  padding: 5rem 0;
+}
+
+.text-container {
+  text-align: center;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  margin-bottom: 5rem;
+}
+
+.container .text-container h2 {
+  font-weight: lighter;
+}
+
+.container .text-container h2 span {
+  color: var(--PRIMARY-COLOR);
+}
+
+.accordion {
+  width: 60%;
+  margin: 0 auto;
+}

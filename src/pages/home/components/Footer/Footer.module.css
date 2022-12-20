@@ -1,0 +1,43 @@
+.container {
+  text-align: center;
+  font-size: 0.75rem;
+  color: var(--GRAY);
+  padding: 3rem 5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.container h2 span {
+  color: var(--PRIMARY-COLOR);
+  font-style: italic;
+}
+
+.container .icons-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  gap: 2rem;
+}
+
+.container .icons-container li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  transition: 0.3s;
+  color: var(--GRAY);
+  padding: 1.5rem;
+  width: 2rem;
+  height: 2rem;
+}
+
+.container .icons-container li:hover {
+  background-color: var(--PRIMARY-COLOR);
+  color: var(--WHITE);
+}
+
+.container .icons-container li {
+  font-size: 1.25rem;
+}
