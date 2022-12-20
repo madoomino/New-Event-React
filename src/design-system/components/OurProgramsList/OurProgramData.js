@@ -70,7 +70,7 @@ export default [
     imgAlt: "img3",
     time: "09:20 PM",
     roomNumber: "562",
-    title: "Android Development",
+    title: "Career Development",
     name: "Bill Gates",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quas architecto ab minus numquam! Est optio dolore nam incidunt dolorem inventore quia.",
