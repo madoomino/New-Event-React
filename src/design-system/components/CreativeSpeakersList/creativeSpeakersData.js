@@ -36,7 +36,7 @@ export default [
     id: 4,
     imgUrl: img5,
     imgAlt: "Fifth Alt",
-    name: "Nahla",
+    name: "Elon",
     job: "Product Manager",
   },
 ];
